@@ -1,24 +1,4 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@font-face {
-    font-family: spotify-circular;
-    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf") format("ttf");
-    font-weight: 200;
-    font-style: normal
-}
-
-@font-face {
-    font-family: spotify-circular;
-    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.ttf") format("ttf");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: spotify-circular;
-    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.ttf") format("ttf");
-    font-weight: 600;
-    font-style: normal
-}
 
 html {
     font-family: 'spotify-circular';
@@ -539,7 +519,7 @@ header .nav-list-item a {
 }
 
 .post-content .tip:before {
-    font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'spotify-circular';
     ;
     font-size: 14px;
     font-weight: bold;
@@ -925,4 +905,25 @@ footer .copyright a:hover {
     font-style: normal;
     ;
     src: url('../font/sourcesanspro.woff2') format('woff2'), url('../font/sourcesanspro.woff') format('woff');
+}
+
+@font-face {
+    font-family: spotify-circular;
+    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf") format("ttf");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: spotify-circular;
+    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Book.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: spotify-circular;
+    src: url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2") format("woff2"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff") format("woff"), url("https://open.scdn.co/fonts/CircularSpUIv3T-Bold.ttf") format("ttf");
+    font-weight: 600;
+    font-style: normal
 }
