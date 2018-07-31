@@ -8,6 +8,7 @@ html {
 
 body {
     margin: 0;
+    color: hsla(0, 0%, 100%, .6);
 }
 
 article,
@@ -60,6 +61,7 @@ abbr[title] {
 b,
 strong {
     font-weight: bold;
+    color: #EDB54B;
 }
 
 dfn {
@@ -276,16 +278,10 @@ a.post-title-link:hover {
 a.post-title-link {
     font-size: 32px;
     font-weight: 400;
-    line-height: 40px;
     transition-timing-function: linear;
     transition-duration: .2s;
     transition-property: color;
-    letter-spacing: -.025em;
-}
-
-a.post-title-link:hover {
-    color: #1db954;
-    ;
+    letter-spacing: .025em;
 }
 
 a.nav-list-link.active::after {
@@ -431,6 +427,10 @@ header .nav-list-item a {
     margin: 5em auto;
 }
 
+.archive-year {
+    color: #FFF;
+}
+
 .archive .post-item {
     padding: 2px 0 0 50px;
 }
@@ -467,12 +467,11 @@ header .nav-list-item a {
 
 .post-block .post-title {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 56px;
     line-height: 1.07142857;
-    color: black;
     letter-spacing: -0.025em;
     ;
-    color: #1db954;
+    color: #FFF;
 }
 
 .post-block .post-info {
@@ -496,6 +495,10 @@ header .nav-list-item a {
     background-color: #e36b6b;
 }
 
+.post-block:hover a.post-title-link {
+    color: #1db954;
+}
+
 .post-content h2,
 .post-content h3,
 .post-content h4,
@@ -509,8 +512,11 @@ header .nav-list-item a {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 32px;
     color: hsla(0, 0%, 100%, .6);
+}
+
+.post-content p em {
+    color: #c885f5;
 }
 
 .post-content h2:before,
@@ -522,7 +528,7 @@ header .nav-list-item a {
     /* font-weight: bold; */
     position: absolute;
     top: -4px;
-    left: -.7em;
+    left: -24px;
     content: '#';
     color: #d3ebe9;
     ;
@@ -537,7 +543,7 @@ header .nav-list-item a {
 .post-content h2,
 .post-content h3 {
     font-size: 22px;
-    color: #D26939;
+    color: #26A98B;
     letter-spacing: 0.025em;
 }
 
@@ -563,13 +569,19 @@ header .nav-list-item a {
 .post-content blockquote {
     margin: 2em 0;
     padding-left: 20px;
-    border-left: 4px solid #1db954;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-left: 8px solid #1db954;
+    background-color: #282828;
+    font-style: italic;
 }
 
 .post-content img {
     display: block;
     max-width: 100%;
     margin: 1em auto;
+    transition: all 0.16s ease;
 }
 
 .post-content>table,
@@ -914,6 +926,9 @@ main.container {
 }
 
 @media screen and (max-width: 700px) {
+    main.container {
+        margin: 0 24px;
+    }
     .wrap {
         width: 100%;
     }
@@ -936,6 +951,22 @@ main.container {
     }
     .archive .post-item {
         padding-left: 20px;
+    }
+    a.post-title-link {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+    }
+    h2.post-title {
+        -webkit-margin-before: 0px;
+        -webkit-margin-after: 12px;
+        ;
+    }
+    .post-block .post-title {
+        line-height: 30px;
+    }
+    .post-content p {
+        margin-top: 24px;
     }
     .post-content h2,
     .post-content h3,
