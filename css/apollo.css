@@ -572,7 +572,7 @@ header .nav-list-item a {
     padding-right: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border-left: 8px solid #1db954;
+    border-left: 4px solid hsla(0, 0%, 100%, .6);
     background-color: #282828;
     font-style: italic;
 }
@@ -964,6 +964,9 @@ main.container {
     }
     .post-block .post-title {
         line-height: 30px;
+        font-size: 28px;
+        letter-spacing: -0.025em;
+        ;
     }
     .post-content p {
         margin-top: 24px;
