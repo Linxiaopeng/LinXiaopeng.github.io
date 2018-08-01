@@ -61,7 +61,7 @@ abbr[title] {
 b,
 strong {
     font-weight: bold;
-    color: #EDB54B;
+    color: #edb54b;
 }
 
 dfn {
@@ -383,9 +383,9 @@ header .nav-list-item a {
 }
 
 .home.post-list .post-list-item {
+    margin-bottom: 24px;
     padding: 1em 0 2em;
     border-bottom: 1px solid #404040;
-    margin-bottom: 24px;
 }
 
 .home.post-list .post-list-item:last-child {
@@ -428,7 +428,7 @@ header .nav-list-item a {
 }
 
 .archive-year {
-    color: #FFF;
+    color: #fff;
 }
 
 .archive .post-item {
@@ -466,12 +466,12 @@ header .nav-list-item a {
 }
 
 .post-block .post-title {
-    font-weight: 400;
     font-size: 56px;
+    font-weight: 400;
     line-height: 1.07142857;
-    letter-spacing: -0.025em;
+    letter-spacing: -.025em;
+    color: #fff;
     ;
-    color: #FFF;
 }
 
 .post-block .post-info {
@@ -530,7 +530,7 @@ header .nav-list-item a {
     top: -4px;
     left: -24px;
     content: '|';
-    color: #2E416B;
+    color: #2e416b;
     ;
 }
 
@@ -543,8 +543,8 @@ header .nav-list-item a {
 .post-content h2,
 .post-content h3 {
     font-size: 22px;
-    color: #EC4455;
-    letter-spacing: 0.025em;
+    letter-spacing: .025em;
+    color: #ec4455;
 }
 
 .post-content h4,
@@ -567,21 +567,21 @@ header .nav-list-item a {
 }
 
 .post-content blockquote {
+    font-style: italic;
     margin: 2em 0;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 8px;
+    padding-right: 20px;
     padding-bottom: 8px;
+    padding-left: 20px;
     border-left: 4px solid hsla(0, 0%, 100%, .6);
     background-color: #282828;
-    font-style: italic;
 }
 
 .post-content img {
     display: block;
     max-width: 100%;
     margin: 1em auto;
-    transition: all 0.16s ease;
+    transition: all .16s ease;
 }
 
 .post-content>table,
@@ -787,7 +787,7 @@ pre {
 }
 
 pre {
-    color: #D3EBE9;
+    color: #d3ebe9;
 }
 
 pre .function .keyword,
@@ -891,13 +891,13 @@ pre .xml .cdata {
     font-size: 14px;
     font-weight: 600;
     display: inline-block;
-    margin: 0 4px;
     width: 80px;
+    margin: 0 4px;
     padding: 4px 12px;
+    transition: all .15s ease;
     color: #fff;
     border-radius: 25px;
     background: #1ed760;
-    transition: all 0.15s ease;
 }
 
 .paginator .prev:hover,
@@ -955,17 +955,17 @@ main.container {
     a.post-title-link {
         font-size: 20px;
         font-weight: 400;
-        letter-spacing: 0.025em;
+        letter-spacing: .025em;
     }
     h2.post-title {
-        -webkit-margin-before: 0px;
+        -webkit-margin-before: 0;
         -webkit-margin-after: 12px;
         ;
     }
     .post-block .post-title {
-        line-height: 30px;
         font-size: 28px;
-        letter-spacing: -0.025em;
+        line-height: 30px;
+        letter-spacing: -.025em;
         ;
     }
     .post-content p {
