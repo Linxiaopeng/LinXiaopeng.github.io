@@ -441,7 +441,7 @@ header .nav-list-item a {
 }
 
 .archive .post-title-link {
-    display: block;
+    display: contents;
     margin-left: 125px;
     word-break: break-all;
     color: #1db954;
@@ -951,6 +951,7 @@ main.container {
     }
     .archive .post-item {
         padding-left: 20px;
+        display: inline-block;
     }
     a.post-title-link {
         font-size: 20px;
