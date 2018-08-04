@@ -165,7 +165,7 @@ a:hover {
   bottom: 2.285714285714286rem;
   left: 50%;
   margin-left: 21.285714285714285rem;
-  background-color: rgba(255,255,255,0.06);
+  background-color: #111921;
   width: 2.285714285714286rem;
   height: 2.285714285714286rem;
   -webkit-transition: all 0.2s ease-in-out;
@@ -398,7 +398,7 @@ footer a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: rgba(255,255,255,0.06);
+  background-color: #111921;
   border: 1px solid #c4c5d2;
   border-radius: 6px;
   -webkit-box-shadow: 0px 10px 20px rgba(0,0,0,0.07);
@@ -445,11 +445,11 @@ footer a {
   transition: all 1s ease-in-out;
 }
 .article {
-  background-color: rgba(255,255,255,0.06);
+  background-color: #111921;
   padding: 1.828571428571429rem;
   position: relative;
   margin-bottom: 4.571428571428571rem;
-  border-radius: 0.571428571428571rem;
+  border-radius: 0.457142857142857rem;
 }
 @media screen and (max-width: 479px) {
   .article {
@@ -465,8 +465,8 @@ footer a {
   margin-bottom: 2.285714285714286rem;
 }
 .home .article:hover {
-  -webkit-box-shadow: 0px 10px 20px rgba(0,0,0,0.07);
-  box-shadow: 0px 10px 20px rgba(0,0,0,0.07);
+  -webkit-box-shadow: 0px 10px 20px rgba(0,0,0,0.24);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.24);
 }
 .article img {
   max-width: 100%;
@@ -748,7 +748,7 @@ footer a {
   }
 }
 .post-archive__content {
-  background-color: rgba(255,255,255,0.06);
+  background-color: #111921;
   padding: 1.142857142857143rem;
   display: -webkit-box;
   display: -moz-box;
